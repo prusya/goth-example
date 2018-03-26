@@ -1,0 +1,26 @@
+{
+  "Port": "8080",
+
+  "EveClientId": "",
+  "EveClientSecret": "",
+  "EveCallback": "http://localhost:8080/auth/eveonline/callback",
+
+  "DiscordClientKey": "",
+  "DiscordClientSecret": "",
+  "DiscordCallback": "http://localhost:8080/auth/discord/callback",
+  "DiscordToken": "",
+  "DiscordGuildId": "",
+
+  "SessionStoreKey": "qwertyuiop123456",
+  "GothicStoreKey": "qwertyuiop123456",
+
+  "AllowedCharId": [
+    92532650
+  ],
+  "AllowedCorpId": [
+    109299958
+  ],
+  "AllowedAlliId": [
+    434243723
+  ]
+}

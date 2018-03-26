@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{{if .EveCharName}}
+<p>Hello, {{.EveCharName}}</p>
+<p><a href="/auth/discord">Connect to discord</a></p>
+<p><a href="/logout">Logout</a></p>
+{{end}}
+
+{{if not .EveCharName}}
+<p><a href="/auth/eveonline">Log in with Eve online</a></p>
+{{end}}
+
+</body>
+</html>
